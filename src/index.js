@@ -47,7 +47,7 @@ function apiSaga (apiMethod, options = {}) {
           : error
       })
     }
-  }
+  };
 }
 
 export default apiSaga
